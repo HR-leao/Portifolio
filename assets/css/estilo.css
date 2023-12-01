@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +12,101 @@
 
 
 body {
-    background-color: #000;
-    color:#fff;
+    background-color: #202225;
 
+
+}
+
+
+
+.containerModal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+.modal {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #FFF;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.containerclose {
+    display: flex;
+    justify-content: flex-end;
+}
+.close {
+    cursor: pointer;
+}
+.modal h1{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+.titulo,
+.data {
+    display: none;
+}
+
+.container-certificado:hover .titulo{
+    display: block;
+    color: #0071b7;
+}
+
+.container-certificado:hover .data{
+    display: block;
+    color:#DDD ;
+}
+
+.areacontainer{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+
+
+.certificado{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 390px;
+    height: 290px;
+    position: absolute;
+}
+
+
+.certificado:hover {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.container-certificado img {
+    width: 390px;
+    height: 290px;
 }
