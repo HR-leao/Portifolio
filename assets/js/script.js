@@ -13,16 +13,17 @@ function remove(e) {
 const x = document.querySelector('.x')
 x.style.width = '100px'
 x.style.height = '30px'
-x.style.borderRadius = '3px'
+x.style.borderRadius = '4px'
 x.style.border = 'none'
-x.style.marginLeft = '-101px'
+x.style.marginLeft = '-131px'
 x.style.marginTop = '-1px'
 x.style.position = 'absolute'
-x.style.backgroundColor = '#333'
-x.style.color = '#CCC'
+x.style.backgroundColor = '#001F3F'
+x.style.color = '#fff'
+x.style.cursor='pointer'
+x.style.fontWeght='bold'
+x.style.fontSize='16px'
 button.style.marginRight = '28px'
-
-
 //ABRIR MODAL
 function Open(e) {
     e = document.querySelector('.containerModal')
@@ -109,3 +110,18 @@ containerCertificado.forEach((e) => {
 
 
 
+//MAQUINA DE ESCREVER DO MODAL
+
+function typeWrite (e) {
+    const textoArray = e.innerHTML.split('')
+    e.innerHTML=''
+    textoArray.forEach((letra , i) =>{
+        setTimeout(() => {
+            e.innerHTML+=letra;
+        }, 40 * i);
+    })
+}
+
+const titulomod = document.querySelector('.titulomod')
+const maquinaEscrever = document.querySelector('.meConheca')
+typeWrite(maquinaEscrever)
