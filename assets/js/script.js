@@ -64,7 +64,7 @@ containerCertificado.forEach((e) => {
         let imagem = modal.querySelector('img')
         let dataKey = e.getAttribute('data-key')
         modal.appendChild(NovaImagem)
-
+        
         NovaImagem.width = 900
         modal.style.width = "1000px"
         modal.style.height = "600px"
