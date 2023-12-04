@@ -208,3 +208,23 @@ body {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+.h1section {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.pjEstudo {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h1Projetos {
+
+
+}
+.h1section {
+    height: 100px;
+}
