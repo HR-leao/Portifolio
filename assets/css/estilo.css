@@ -14,7 +14,6 @@
 
 body {
     background-color: #000;
-   color: #fff;
 
 }
 
@@ -41,6 +40,19 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-Bottom: 30px;
+    padding: 10px;
+    color: #F2F2F2;
+    background:linear-gradient(to bottom,#222,#111,#000) ;
+    font-family: 'Nova Square', sans-serif;
+    height: 100px;
+    
+}
+
 .containerModal {
     position: absolute;
     display: flex;
@@ -144,6 +156,20 @@ body {
 .descvd {
     display: none;
 }
+.container-certificado {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #000015;
+
+}
+
+
 
 .container-certificado:hover .titulo,
 .container-certificado:hover .cert{
@@ -165,6 +191,8 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background:linear-gradient(to bottom, #000, #111);
+    padding: 40px;
     
 }
 
@@ -177,17 +205,16 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 340px;
-    height: 290px;
+    width: 390px;
+    height: 344px;
     position: absolute;
     cursor: pointer;
-   
+
 }
 
 
 
 .certificado .cert {
-
     width: 190px;
     height: 160px;
 }
@@ -203,22 +230,17 @@ body {
 
 
 .container-certificado img {
-    width: 340px;
-    height: 290px;
-    margin-bottom: 10px;
+    width: 390px;
+    height: 320px;
     border-radius: 5px;
 }
 
 .h1section {
-    background-color: green;
-    display: flex;
-    justify-content: center;
+
 }
 
 .pjEstudo {
-    background-color: red;
-    display: flex;
-    justify-content: space-around;
+
 }
 
 .h1Projetos {
@@ -228,3 +250,7 @@ body {
 .h1section {
     height: 100px;
 }
+
+
+
+
