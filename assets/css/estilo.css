@@ -47,7 +47,7 @@ body {
     margin-Bottom: 30px;
     padding: 10px;
     color: #F2F2F2;
-    background:linear-gradient(to bottom,#222,#111,#000) ;
+    background:linear-gradient(to bottom,#00001f,#000002,#000) ;
     font-family: 'Nova Square', sans-serif;
     height: 100px;
     
@@ -191,8 +191,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background:linear-gradient(to bottom, #000, #111);
-    padding: 40px;
+    background:linear-gradient(to bottom, #0001, #111 ,#00000a);
     
 }
 
@@ -230,7 +229,7 @@ body {
 
 
 .container-certificado img {
-    width: 390px;
+    width: 380px;
     height: 320px;
     border-radius: 5px;
 }
@@ -240,7 +239,11 @@ body {
 }
 
 .pjEstudo {
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow:hidden;
+    flex: 1;
 }
 
 .h1Projetos {
@@ -254,3 +257,7 @@ body {
 
 
 
+.sectionProjetos {
+    background-color: red;
+
+}
