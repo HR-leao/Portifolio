@@ -166,7 +166,7 @@ body {
     margin-bottom: 10px;
     border-radius: 4px;
     background-color: #000015;
-
+   
 }
 
 
@@ -208,6 +208,7 @@ body {
     height: 344px;
     position: absolute;
     cursor: pointer;
+   
 
 }
 
@@ -232,32 +233,42 @@ body {
     width: 380px;
     height: 320px;
     border-radius: 5px;
+    
+    
 }
 
-.h1section {
-
-}
 
 .pjEstudo {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    overflow:hidden;
     flex: 1;
-}
-
-.h1Projetos {
-
+    width: 100%;
 
 }
-.h1section {
-    height: 100px;
+.pjEstudo:last-of-type {
+    margin-bottom: 100px;
 }
 
-
-
+video {
+    width:600px;
+}
 
 .sectionProjetos {
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 355px;
+    margin-right: 10px;
+    position: relative;
+    border: 1px solid #0071b7;
+}
 
+
+.sectionProjetos .titulopp {
+    color: #F2F2F2;
+    margin-bottom: -10px;
+    position: absolute;
+    top: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
