@@ -18,6 +18,25 @@ body {
 }
 
 
+header {
+    background-color: rgb(223, 223, 223);
+   
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+ul>li:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
 .meConheca::after {
     content: '|';
     margin-left: 5px;

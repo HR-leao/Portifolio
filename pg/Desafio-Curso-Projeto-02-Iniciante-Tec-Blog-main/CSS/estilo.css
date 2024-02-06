@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #F2F2F2;
+    font-size: 1em;
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 1.5em;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: #c2bfbf;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+h4 {
+
+    margin-bottom: 20px;
+    font-size: 0.8em;
+
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px 12px;
+    color: #fff;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#cabecalho a:hover {
+    color: #f7b600;
+    background-color: #fff;
+}
+
+#cabecalho {
+    background-color: #f7b600;
+    padding: 30px;
+    text-align: center;
+}
+
+.linha {
+    border: 1px dashed #c5c2c2;
+}
+
+
+#post-lateral a {
+    color: #f7b600;
+
+
+}
+
+#post-lateral a:hover {
+    text-decoration: underline;
+
+}
+
+#post-lateral {
+    width: 240px;
+    float: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+
+}
+
+#post-lateral h2 {
+    color: #3f3e3e;
+}
+
+#post-lateral p {
+    padding-left: 5px;
+}
+
+
+#logo,
+#area-menu {
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+.post-principal {
+    width: 620px;
+    float: left;
+    padding: 10px;
+    background-color: #fff;
+
+
+}
+
+
+.area-principal {
+    width: 920px;
+    height: 800px;
+    margin: 0px auto;
+    background-color: #F2F2F2;
+
+}
+
+
+
+.t1 {
+    color: #f7b600;
+
+}
+
+
+.branco {
+    color: #f1f1f1;
+}

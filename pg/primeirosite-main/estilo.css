@@ -1,0 +1,80 @@
+.botao {
+    background-color: #c4c2a2;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 880px;
+    font-family: Arial rounded Bold;
+}
+
+.fundotexto {
+    background-color: #faf6e1;
+}
+
+.bordas {
+    margin-top: 2%;
+    border: 10px solid #c4c2a2;
+}
+
+.bordafinal {
+    margin-left: 10px;
+    margin-left: 10px;
+    border: solid 10px #c4c2a2;
+
+}
+
+#espacofinal {
+    margin-left: 10px;
+
+}
+
+#tiraespaco {
+    padding-bottom: 0%;
+}
+
+p {
+    margin-left: 10px;
+    width: 890px;
+    background-color: #faf6e1;
+
+
+}
+
+h2 {
+    color: #828271;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+div {
+    width: 900px;
+    padding-bottom: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(42, 42, 94);
+    font-weight: bold;
+    padding-right: 2px;
+    padding-left: 10px;
+
+
+}
+
+body {
+
+    background-image: url('Imagens/fundo.png');
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+
+
+}
